@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .main{
     width: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,13 +15,19 @@
     display:none;
 }
 
-button{
-    width: 50px;
+#button{
+    width: 150px;
     height: 50px;
-    border: none;
    background-color: transparent;
+   border: none;
 }
 .transparent{
     background-color: transparent;
     gap: 25px;
+    display: flex;
+}
+#static{
+    display: block;
+    width: 180px;
+    height: 145px;
 }
