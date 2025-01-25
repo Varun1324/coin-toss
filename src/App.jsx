@@ -16,6 +16,7 @@ function App() {
     <div className="main">
       <img src={photo} alt="" id="static"/>
       <img src="https://media1.giphy.com/media/MOsuJf3qp3b1fQx2Iv/200w.gif?cid=6c09b9527kutfhdln2w6het3enu4safwej0t6hams09ncfkc&ep=v1_stickers_search&rid=200w.gif&ct=s" alt="" id="image"/>
+      <Header size='huge'>{coin}</Header>
       <Button color='yellow' onClick={()=>{
         let image = document.getElementById("image");
         let staticImage = document.getElementById("static");
@@ -29,7 +30,6 @@ function App() {
       }}>
         Toss
       </Button>
-      <Header size='huge'>{coin}</Header>
       <div className="transparent">
       <button basic color='grey' content='Tail' onClick={()=>{
         let image = document.getElementById("image");
