@@ -26,7 +26,7 @@ function App() {
           tossFun();
           image.style.display = "none";
           staticImage.style.display = "block";
-        },3000)
+        },3500)
       }}>
         Toss
       </Button>
@@ -40,7 +40,7 @@ function App() {
           setCoin("Tails");
           image.style.display = "none";
           staticImage.style.display = "block";
-        },3000);
+        },3500);
       }} id="button"></button>
       <button content='head' onClick={()=>{
         let image = document.getElementById("image");
@@ -51,7 +51,7 @@ function App() {
           setCoin("Heads");
           image.style.display = "none";
           staticImage.style.display = "block";
-        },3000);
+        },3500);
       }} id="button"></button>
       </div>
     </div>
